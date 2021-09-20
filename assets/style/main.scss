@@ -1,12 +1,6 @@
-$purple:#563AD6;
-$aqua:#3ABAD6;
-$navy: #02044A;
-$white:#FFFFFF;
-$sofpur:#EAEAF4;
-$darpur:#777790;
-$medpur:#B4B5C9;
-$lilpur:#F9F9FB;
-$font-weight : ("regular": 400, "medium":500, "semibold":600 ); 
+@import '../style/colors.scss';
+@import '../style/buttons.scss';
+@import '../style/typo.scss';
 
 body {
     font-family: 'Rubik', sans-serif;
@@ -20,12 +14,46 @@ body {
         }
         .active{
             color: $purple !important;
-            font-weight: 500 !important;
+            font-weight: map-get($font-weight, "medium" ) !important;
         }
         .nav-link {
             color: $navy;
-            font-weight: 400;
+            font-weight: map-get($font-weight, "regular" );
         }
     }
 }
 
+.sales {
+    padding-top: 100px;
+    .brand {
+        margin-top: 70px;
+        text-align: center;
+        .img-brands {
+            width: 724px;
+        }
+    }
+    .copywriting {
+        margin-top: 100px;
+        padding-left: 130px;
+    }
+}
+
+.tagline {
+    font-size: 46px;
+    line-height: 60px;
+    color: $navy;
+    font-weight: map-get($font-weight, "semibold" );
+}
+.description {
+    font-weight: map-get($font-weight, "regular" ) !important;
+    font-size :18px;
+    line-height: 30px !important;
+    color: $newpur;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.pricing {
+    background: $lilpur;
+    margin-top:  50px !important;
+}

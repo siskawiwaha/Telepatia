@@ -1,22 +1,78 @@
-    body {
-    font-family: 'Rubik', sans-serif;
-    }
+.btn-master, .btn-primary, .btn-secondary {
+  padding: 15px 26px 15px 26px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 0;
+}
 
-    .navbar-tp {
-    padding-top: 30px;
-    }
+.btn-primary {
+  color: #FFFFFF;
+  background: #563AD6;
+}
 
-    .navbar-tp .navbar-nav li {
-    padding-left: 30px;
-    }
+.btn-secondary {
+  color: #777790;
+  background: #EAEAF4;
+}
 
-    .navbar-tp .navbar-nav .active {
-    color: #563AD6 !important;
-    font-weight: 500 !important;
-    }
+body {
+  font-family: 'Rubik', sans-serif;
+}
 
-    .navbar-tp .navbar-nav .nav-link {
-    color: #02044A;
-    font-weight: 400;
-    }
+.navbar-tp {
+  padding-top: 30px;
+}
+
+.navbar-tp .navbar-nav li {
+  padding-left: 30px;
+}
+
+.navbar-tp .navbar-nav .active {
+  color: #563AD6 !important;
+  font-weight: 500 !important;
+}
+
+.navbar-tp .navbar-nav .nav-link {
+  color: #02044A;
+  font-weight: 400;
+}
+
+.sales {
+  padding-top: 100px;
+}
+
+.sales .brand {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.sales .brand .img-brands {
+  width: 724px;
+}
+
+.sales .copywriting {
+  margin-top: 100px;
+  padding-left: 130px;
+}
+
+.tagline {
+  font-size: 46px;
+  line-height: 60px;
+  color: #02044A;
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 400 !important;
+  font-size: 18px;
+  line-height: 30px !important;
+  color: #9B9CB7;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.pricing {
+  background: #F9F9FB;
+  margin-top: 50px !important;
+}
 /*# sourceMappingURL=main.css.map */

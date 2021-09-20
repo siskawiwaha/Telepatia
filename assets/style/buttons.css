@@ -1,0 +1,17 @@
+.btn-master, .btn-primary, .btn-secondary {
+  padding: 15px 26px 15px 26px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background: #563AD6;
+}
+
+.btn-secondary {
+  color: #777790;
+  background: #EAEAF4;
+}
+/*# sourceMappingURL=buttons.css.map */
