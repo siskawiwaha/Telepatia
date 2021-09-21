@@ -55,5 +55,80 @@ body {
 
 .pricing {
     background: $lilpur;
-    margin-top:  50px !important;
+    padding: 70px 0 70px 0;
+    margin-top: 70px ;
+    .btn {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .item-benefit {
+        font-size: 16px;
+        font-weight: map-get($font-weight, "medium" );
+        img {
+            float: left;
+            margin-right: 8px;
+        }
+    }
+    .master-card {
+        padding: 30px;
+        border-radius: 22px;
+        .name-card {
+            font-weight: map-get($font-weight, "medium" );
+            font-size: 18px !important;
+        }
+        .pricing-card {
+            font-weight: map-get($font-weight, "semibold" );
+            font-size: 36px !important;
+            line-height: 43px;
+        }
+        .description-card {
+            font-weight: map-get($font-weight, "medium" );
+            font-size: 16px !important;
+        }
+        .text-benefit {
+            font-weight: map-get($font-weight, "medium" );
+            font-size: 16px;
+        }
+    }
+    .basic-card{
+        background: $white; 
+        .name-card {
+            color: $navy !important;
+        }
+        .pricing-card {
+            color: $navy;
+        }
+        .description-card {
+            color: $newpur;
+        }
+        .text-benefit {
+            color: $navy;
+        }
+        .item-benefit {
+            font-size: 16px;
+            font-weight: map-get($font-weight, "medium" );
+        }
+    }
+    .most-card{
+        background: $purple; 
+        .btn-primary {
+            background: $aqua !important;
+        }
+        .name-card {
+            color: $white !important;
+        }
+        .pricing-card {
+            color: $white;
+        }
+        .description-card {
+            color: $softpur;
+        }
+        .text-benefit {
+            color: $white;
+        }
+        .item-benefit {
+            font-size: 16px;
+            font-weight: map-get($font-weight, "medium" );
+        }
+    }
 }

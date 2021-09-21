@@ -73,6 +73,102 @@ body {
 
 .pricing {
   background: #F9F9FB;
-  margin-top: 50px !important;
+  padding: 70px 0 70px 0;
+  margin-top: 70px;
+}
+
+.pricing .btn {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.pricing .item-benefit {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pricing .item-benefit img {
+  float: left;
+  margin-right: 8px;
+}
+
+.pricing .master-card {
+  padding: 30px;
+  border-radius: 22px;
+}
+
+.pricing .master-card .name-card {
+  font-weight: 500;
+  font-size: 18px !important;
+}
+
+.pricing .master-card .pricing-card {
+  font-weight: 600;
+  font-size: 36px !important;
+  line-height: 43px;
+}
+
+.pricing .master-card .description-card {
+  font-weight: 500;
+  font-size: 16px !important;
+}
+
+.pricing .master-card .text-benefit {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.pricing .basic-card {
+  background: #FFFFFF;
+}
+
+.pricing .basic-card .name-card {
+  color: #02044A !important;
+}
+
+.pricing .basic-card .pricing-card {
+  color: #02044A;
+}
+
+.pricing .basic-card .description-card {
+  color: #9B9CB7;
+}
+
+.pricing .basic-card .text-benefit {
+  color: #02044A;
+}
+
+.pricing .basic-card .item-benefit {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pricing .most-card {
+  background: #563AD6;
+}
+
+.pricing .most-card .btn-primary {
+  background: #3ABAD6 !important;
+}
+
+.pricing .most-card .name-card {
+  color: #FFFFFF !important;
+}
+
+.pricing .most-card .pricing-card {
+  color: #FFFFFF;
+}
+
+.pricing .most-card .description-card {
+  color: #B19FFF;
+}
+
+.pricing .most-card .text-benefit {
+  color: #FFFFFF;
+}
+
+.pricing .most-card .item-benefit {
+  font-size: 16px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
