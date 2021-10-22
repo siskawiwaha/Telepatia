@@ -23,6 +23,12 @@ body {
   padding-top: 30px;
 }
 
+@media (min-width: 375px) {
+  .navbar-tp .navbar-toggler {
+    margin-left: 90px !important;
+  }
+}
+
 .navbar-tp .navbar-nav li {
   padding-left: 30px;
 }

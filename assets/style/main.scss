@@ -2,12 +2,55 @@
 @import '../style/buttons.scss';
 @import '../style/typo.scss';
 
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@mixin phone {
+    @media (min-width: 375px) {
+        @content;
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin large-devices {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+
+
+
+
+
 body {
     font-family: 'Rubik', sans-serif;
 }
 
 .navbar-tp {
     padding-top: 30px;
+    .navbar-toggler {
+        @include phone {
+            margin-left: 90px !important;
+        }
+    }
     .navbar-nav {
         li {
             padding-left: 30px;
@@ -22,6 +65,8 @@ body {
         }
     }
 }
+    
+
 
 .sales {
     padding-top: 100px;
